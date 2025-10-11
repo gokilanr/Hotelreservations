@@ -2,3 +2,12 @@ Metadata-Version: 2.1
 Name: MLOPS-PROJECT-1
 Version: 0.1
 Author: Gokilan
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: google-cloud-storage
+Requires-Dist: scikit-learn
+Requires-Dist: pyyaml
+Requires-Dist: imbalanced-learn
+Requires-Dist: lightgbm
+Requires-Dist: mlflow
+Requires-Dist: flask

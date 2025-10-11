@@ -13,6 +13,7 @@ list_of_files = [
     "config/config.yaml",
     "pipeline/__init__.py",
     "static/style.css",
+    "utils/__init__.py",
     "custom_jenkins/Dockerfile",
     "templates/index.html",
     "app.py",
