@@ -27,3 +27,11 @@ def read_yaml(file_path: str) -> dict:
     except Exception as e:
         logger.error(f"Error reading YAML file {file_path}: {e}")
         raise CustomException("Failed to read yaml file", e)
+    
+def load_data(file_path):
+    try:
+        logger.info("loading data")
+        return pd.read_csv(file_path)
+    except Exception as e:
+        logger.error(f"Error loading data from {file_path}: {e}")
+        raise CustomException("Failed to load data", e)
