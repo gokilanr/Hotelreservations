@@ -18,4 +18,6 @@ PROCESSED_DIR = "artifacts/processed"
 PROCESSED_TRAIN_PATH = os.path.join(PROCESSED_DIR, "processed_train.csv")
 PROCESSED_TEST_PATH = os.path.join(PROCESSED_DIR, "processed_test.csv")
 
+###Model Training##
 
+MODEL_OUTPUT_PATH = "artifacts/model/model.pkl"
