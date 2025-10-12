@@ -3,3 +3,4 @@ logs/
 artifacts/
 mlruns/
 __pycache__/
+MLOPS_PROJECT_1.egg-info/
